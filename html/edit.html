@@ -1,0 +1,12 @@
+
+    <h1>Редактирование</h1>
+    <form action="/?saveinfo={[id]}" method="post">
+        <input type="text" class="form-control mt-2" name="login" id="login" placeholder="Введите login" value="{[login]}">
+        <input type="text" class="form-control mt-2" name="password" id="password" placeholder="Введите password" value="{[password]}">
+        <input type="text" class="form-control mt-2" name="first_name" id="first_name" placeholder="Введите имя" value="{[first_name]}">
+        <input type="text" class="form-control mt-2" name="last_name" id="last_name" placeholder="Введите фамилию" value="{[last_name]}">
+        <input type="text" class="form-control mt-2" name="sex" id="sex" placeholder="Введите пол(male,female)" value="{[sex]}">
+        <input type="date" class="form-control mt-2" name="date_of_birth" id="date_of_birth" value="{[date_of_birth]}">
+        <button class="btn btn-success mt-4" type="submit" name="sendTask">Сохранить изменения</button>
+    </form>
+
